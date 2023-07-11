@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="SimpleNetNlp" Version="4.5.0.1" />
+    <PackageReference Include="SimpleNetNlp.Models.LexParser" Version="4.5.0" />
+    <PackageReference Include="SimpleNetNlp.Models.Naturalli" Version="4.5.0" />
+    <PackageReference Include="SimpleNetNlp.Models.Ner" Version="4.5.0" />
+    <PackageReference Include="SimpleNetNlp.Models.Parser" Version="4.5.0" />
+    <PackageReference Include="SimpleNetNlp.Models.PosTagger" Version="4.5.0" />
+    <PackageReference Include="SimpleNetNlp.Models.Sentiment" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
